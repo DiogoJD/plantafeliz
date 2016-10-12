@@ -1,0 +1,47 @@
+
+
+
+RTC
+http://arduinoccbr.blogspot.com.br/2013/06/tiny-rtc-i2c-real-time-clock.html
+
+bat - nulo
+gnd - gnd
+vcc - 5v
+sda - A4
+scl - A5
+
+-------------------------//-----------------------------
+
+DHT22
+http://www.arduinoecia.com.br/2015/02/sensor-de-temperatura-e-umidade-dht22.html
+
+bom usar resistor de 10k
+
+OUT - Pino 9 digital
+
+--------------------------//----------------------------
+
+LM-393 so com saida digital, sensor de solo, seco ou molhado regula pelo tripot a porcentagem de molhado.
+
+Sensor 1 - 8  Digital
+Sensor 2 - 9  Digital
+Sensor 3 - 10 Digital
+Sensor 4 - 11 Digital
+
+
+--------------------------//----------------------------
+
+Modulo Rele
+
+in1 - 
+in2 - 
+in3 - D13
+in4 - D6
+
+
+duvida wifi robocore forum
+https://www.robocore.net/modules.php?name=Forums&file=viewtopic&p=43298#43298
+
+aRest+cc3000 (o arest é uma lib do arduino que manda os pacotes json)
+http://arest.io/wifi/
+https://learn.adafruit.com/a-rest-api-for-arduino-and-the-cc3000-wifi-chip/overview
