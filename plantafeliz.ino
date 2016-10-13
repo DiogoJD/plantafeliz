@@ -52,14 +52,14 @@ Adafruit_CC3000 cc3000 = Adafruit_CC3000(ADAFRUIT_CC3000_CS, ADAFRUIT_CC3000_IRQ
                                          SPI_CLOCK_DIV2); // you can change this clock speed
                                          
 // WLAN parameters
-#define WLAN_SSID       "Dias"
-#define WLAN_PASS       "diaspereira"
+#define WLAN_SSID       "xxx"
+#define WLAN_PASS       "xxx"
 #define WLAN_SECURITY   WLAN_SEC_WPA2
 
 
 // ThingSpeak Settings
 char thingSpeakAddress[] = "api.thingspeak.com";
-String writeAPIKey = "X0UW9HAIN9BKG4QM";
+String writeAPIKey = "xxxxxxxxxx";
 
 int buffer_size = 20;
 
